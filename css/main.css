@@ -1,6 +1,11 @@
-body {
+html {
   background-color: AntiqueWhite;
+}
+
+body {
   font-family: 'Open Sans Condensed', sans-serif;
+  max-width: 30em;
+  margin: 0 auto;
 }
 
 p {
@@ -11,11 +16,15 @@ p {
   font-family: 'Chicle', cursive;
 }
 
+.case {
+  margin-top: 5em;
+}
+
 .chunk {
-  border-top: 5px solid AntiqueWhite;
-  border-bottom: 5px solid AntiqueWhite;
-  border-left: 10px solid AntiqueWhite;
-  border-right: 10px solid AntiqueWhite;
+  border-top: 20px solid AntiqueWhite;
+  border-bottom: 20px solid AntiqueWhite;
+  border-left: 40px solid AntiqueWhite;
+  border-right: 40px solid AntiqueWhite;
 }
 
 .yellow {
@@ -40,4 +49,12 @@ p {
   background-color: orange;
   padding: .5rem;
   border: 3px solid AntiqueWhite;
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    max-width: 70em;
+  }
+
 }
