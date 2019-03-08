@@ -2,18 +2,37 @@ body {
   background-color: AntiqueWhite;
 }
 
+li {
+  list-style-type: none;
+}
+
+.chunk {
+  border-top: 5px solid AntiqueWhite;
+  border-bottom: 5px solid AntiqueWhite;
+  border-left: 10px solid AntiqueWhite;
+  border-right: 10px solid AntiqueWhite;
+}
+
 .yellow {
   background-color: yellow;
+  padding: 1rem;
+  border: 3px solid AntiqueWhite;
 }
 
 .teal {
   background-color: teal;
+  padding: 1rem;
+  border: 3px solid AntiqueWhite;
 }
 
 .pink {
   background-color: pink;
+  padding: 1rem;
+  border: 3px solid AntiqueWhite;
 }
 
 .orange {
   background-color: orange;
+  padding: 1rem;
+  border: 3px solid AntiqueWhite;
 }
