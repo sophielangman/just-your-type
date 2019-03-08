@@ -1,5 +1,5 @@
 html {
-  background-color: AntiqueWhite;
+  background-color: antiquewhite;
 }
 
 body {
@@ -21,34 +21,34 @@ p {
 }
 
 .chunk {
-  border-top: 20px solid AntiqueWhite;
-  border-bottom: 20px solid AntiqueWhite;
-  border-left: 40px solid AntiqueWhite;
-  border-right: 40px solid AntiqueWhite;
+  border-top: 20px solid antiquewhite;
+  border-bottom: 20px solid antiquewhite;
+  border-left: 40px solid antiquewhite;
+  border-right: 40px solid antiquewhite;
 }
 
 .yellow {
   background-color: yellow;
   padding: .5rem;
-  border: 3px solid AntiqueWhite;
+  border: 3px solid antiquewhite;
 }
 
 .teal {
   background-color: teal;
   padding: .5rem;
-  border: 3px solid AntiqueWhite;
+  border: 3px solid antiquewhite;
 }
 
 .pink {
   background-color: pink;
   padding: .5rem;
-  border: 3px solid AntiqueWhite;
+  border: 3px solid antiquewhite;
 }
 
 .orange {
   background-color: orange;
   padding: .5rem;
-  border: 3px solid AntiqueWhite;
+  border: 3px solid antiquewhite;
 }
 
 @media only screen and (min-width: 60em) {
