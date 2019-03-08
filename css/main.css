@@ -1,9 +1,14 @@
 body {
   background-color: AntiqueWhite;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-li {
-  list-style-type: none;
+p {
+  margin: 0;
+}
+
+.chicle {
+  font-family: 'Chicle', cursive;
 }
 
 .chunk {
@@ -15,24 +20,24 @@ li {
 
 .yellow {
   background-color: yellow;
-  padding: 1rem;
+  padding: .5rem;
   border: 3px solid AntiqueWhite;
 }
 
 .teal {
   background-color: teal;
-  padding: 1rem;
+  padding: .5rem;
   border: 3px solid AntiqueWhite;
 }
 
 .pink {
   background-color: pink;
-  padding: 1rem;
+  padding: .5rem;
   border: 3px solid AntiqueWhite;
 }
 
 .orange {
   background-color: orange;
-  padding: 1rem;
+  padding: .5rem;
   border: 3px solid AntiqueWhite;
 }
